@@ -19,7 +19,7 @@
 
 <body>
     <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #20c997;">
+    <nav class="navbar navbar-expand-lg navbar-light" id = "bghefoo">
         <div class="container-fluid">
          <img src="assets/Logo1.PNG" style="height: 44px;" alt="..." />
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,58 +55,30 @@
       </nav>
     <!-- Page Content-->
     <div class="video-wrapper">
-        <video playsinline autoplay muted loop poster="">
+        <video playsinline autoplay muted loop poster="" id ="video">
           <source src="assets/Technology Background Video Loop For Website.mp4" type="video/webm">
           Your browser does not support the video tag.
         </video>
+        <div class="overlay">
+             <form>
+                <p>Information System Explorer</p>
+            </form>
+        </div>
+    </div>
+    <div>
+        <div class="col mb-2">
+            <div class="card h-100" id="card_IS">
+                <div class="card-body">
+                    <h2 class="card-title">What is Information systems?</h2>
+                    <p class="card-text">Let us help you explore jobs in the information systems field.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="container ">
         <!-- Heading Row-->
-        <div class="row gx-4 gx-lg-5">
-            <div class="col-md-6 mb-5">
-                <h1 class="animate-charcter">IS Explorer</h1>
-                <p>Let us help you explore IS roles or choose your next career.</p>
-            </div>
-            <div class="col-md-6 mb-5 my-3 py-3" >
-                <div class="card h-100">
-                    <div class="card-body" style="background: linear-gradient(to bottom, #003391 4%, #00FFC1 100%);">
-                        <p class="card-text" style="font-size: x-large;color: white;">"Choose a role that interests you in - CAREERS, SKILLS, and LEARNINGS."</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Content Learning-->
-        <div class="row gx-4 gx-lg-5">
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                  <div class="numbertext">1 / 3</div>
-                  <img src=" assets/QA.jpg" style="width:102.2%">
-                </div>
-                
-                <div class="mySlides fade">
-                  <div class="numbertext">2 / 3</div>
-                  <img src="assets/Python.jpg" style="width:102.2%">
-                </div>
-                
-                <div class="mySlides fade">
-                  <div class="numbertext">3 / 3</div>
-                  <img src="assets/dataanalysis_new.jpg" style="width:102.2%">
-                </div>
-                
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-                
-                </div>
-                <br>
-                
-                <div style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-                  <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
-        </div>
-      <!-- Content Row-->
+        <!-- Content Row-->
         <div class="row gx-4 gx-lg-5">
             <div class="col-md-6 mb-5">
                 <div class="card h-100">
@@ -149,9 +121,40 @@
                 </div>
             </div>
         </div>
+         <!-- Content Learning-->
+         <div class="row gx-4 gx-lg-5">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src=" assets/QA.jpg" style="width:102.2%">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="assets/Python.jpg" style="width:102.2%">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="assets/dataanalysis_new.jpg" style="width:102.2%">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+        </div>
     </div>
+
     <!-- Footer-->
-    <footer class="footer-content" style="background-color: #20c997;">
+    <footer class="footer-content" id = "bghefoo">
             <p>IS Explorer &copy;5620</p>
             <ul class="socials">
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
