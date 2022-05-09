@@ -58,6 +58,12 @@ CUSTOM CSS - IS EXPLORER TEAM
   padding: 25px 35px;
 }
 
+.about-header-img {
+/* 
+ remove backgorund color and use background image.. change URl to appropriate image.
+ background-image: url(../assets/db_role_img.jpg); */
+ background-color: grey;
+}
 
 /*
   the accordian-button class was altered to change the background color of the accordian buttons.
