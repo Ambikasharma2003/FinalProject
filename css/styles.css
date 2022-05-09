@@ -33,32 +33,47 @@ CUSTOM CSS - IS EXPLORER TEAM
 }
 
 .data-analyst-header-img {
- /* 
- remove backgorund color and use background image.. change URl to appropriate image.
- background-image: url(../assets/db_role_img.jpg); */
-  background-color: grey;
-}
+  background-image: url(../assets/da_role_img.jpg); 
+ }
 
 .software-engineer-header-img {
-  /* 
- remove backgorund color and use background image.. change URl to appropriate image.
- background-image: url(../assets/db_role_img.jpg); */
- background-color: grey;
+ 
+ background-image: url(../assets/se_role_img.jpg);
 }
 
 .test-analyst-header-img{  
-  /* 
- remove backgorund color and use background image.. change URl to appropriate image.
- background-image: url(../assets/db_role_img.jpg); */
- background-color: grey;
+  background-image: url(../assets/te_role_img.jpg); 
+ 
 }
 
 .bgTint {
   background-color: RGBA(0,0,0,.4);
   padding: 25px 35px;
 }
+.learning_box_design{
+  position: absolute;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 2.4rem;
+    top: 6.4rem;
+    max-width: 44rem;
+    font-size: 1.6rem;
+    color: #1c1d1f;
+}
+.learning_box{
+  font-size: 3.2rem;
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    margin: 0;
+    color: #1c1d1f;
+}
+@media only screen and (max-width: 320px) {
+  .learning_box_design{
+    font-size: 2em;
+  }
+  .learning_box { 
+     font-size: 2em; 
+  }
 
-
+}
 /*
   the accordian-button class was altered to change the background color of the accordian buttons.
 */
