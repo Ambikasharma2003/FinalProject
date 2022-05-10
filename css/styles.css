@@ -81,10 +81,7 @@ CUSTOM CSS - IS EXPLORER TEAM
 }
 
 .about-header-img {
-  /* 
- remove backgorund color and use background image.. change URl to appropriate image.
- background-image: url(../assets/db_role_img.jpg); */
-  background-color: grey;
+ background-image: url(../assets/about.jpg);
 }
 
 @media screen and (max-width: 670px) {
