@@ -73,16 +73,16 @@ CUSTOM CSS - IS EXPLORER TEAM
   color: #1c1d1f;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-device-width: 480px) { 
   .learning_box_design {
-    font-size: 2em;
+    margin-top: 15%;
+    height: 15%;
+    width: 56%;
+    font-size: 0.6rem;
   }
-
   .learning_box {
-    font-size: 2em;
-  }
-
-
+   font-size: 1.2rem;
+    }
 }
 
 .about-header-img {
