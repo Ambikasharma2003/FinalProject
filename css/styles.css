@@ -51,6 +51,11 @@ CUSTOM CSS - IS EXPLORER TEAM
   padding: 25px 35px;
 }
 
+.learningheader{
+  width: 100%;
+  margin: 0 auto;
+}
+
 .learning_box_design {
   position: absolute;
   box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
