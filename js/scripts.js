@@ -28,7 +28,7 @@
 
     //a template string is used to dynamically generate the URL
     //only 10 jobs are shown
-    const URL = `http://api.adzuna.com/v1/api/jobs/us/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=5&what=${JOB_TITLE}&content-type=application/json`;
+    const URL = `https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=${APP_ID}&app_key=${APP_KEY}&results_per_page=5&what=${JOB_TITLE}&content-type=application/json`;
 
     //an HTTP object is created
     let xmlhttp = new XMLHttpRequest();
